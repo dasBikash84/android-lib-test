@@ -1,0 +1,2 @@
+include ':app', ':android_image_utils'
+rootProject.name='Lib Test'
