@@ -2,6 +2,8 @@ package com.dasbikash.async_manager_example
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.dasbikash.android_extensions.hide
+import com.dasbikash.android_extensions.show
 import com.dasbikash.android_image_utils.ImageUtils
 import com.dasbikash.async_manager.AsyncTaskManager
 import kotlinx.android.synthetic.main.activity_image_demo.*
@@ -60,12 +62,17 @@ class ActivityImageDemo : AppCompatActivity() {
         setContentView(R.layout.activity_image_demo)
 
         AsyncTaskManager.init()
+        btn_stop_demo.hide()
 
         btn_start_demo.setOnClickListener {
             btn_start_demo.text = "Re-Start demo"
             startDemo()
+            btn_stop_demo.show()
         }
-        btn_stop_demo.setOnClickListener { AsyncTaskManager.clear() }
+        btn_stop_demo.setOnClickListener {
+            AsyncTaskManager.clear()
+            btn_stop_demo.hide()
+        }
     }
 
     private fun startDemo() {
