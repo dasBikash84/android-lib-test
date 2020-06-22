@@ -1,7 +1,7 @@
 package com.dasbikash.async_manager_example
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.dasbikash.android_extensions.startActivity
 import kotlinx.android.synthetic.main.activity_ex_async_manager.*
 

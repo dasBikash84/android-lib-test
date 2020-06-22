@@ -11,8 +11,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/async_manager_example" />
+            <option value="$PROJECT_DIR$/super_activity_example" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

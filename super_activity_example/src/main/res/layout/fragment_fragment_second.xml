@@ -1,0 +1,22 @@
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/clear_and_launch_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear and Launch 3"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/launch_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch 3"
+        android:textAllCaps="false"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

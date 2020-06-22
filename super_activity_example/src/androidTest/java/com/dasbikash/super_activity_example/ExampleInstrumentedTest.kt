@@ -1,4 +1,4 @@
-package com.dasbikash.async_manager_example
+package com.dasbikash.super_activity_example
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -17,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.dasbikash.async_manager_example", appContext.packageName)
+        assertEquals("com.dasbikash.lib_test", appContext.packageName)
     }
 }

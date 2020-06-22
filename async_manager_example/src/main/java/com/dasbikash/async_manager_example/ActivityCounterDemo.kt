@@ -1,7 +1,7 @@
 package com.dasbikash.async_manager_example
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.dasbikash.android_extensions.hide
 import com.dasbikash.android_extensions.show
 import com.dasbikash.async_manager.AsyncTaskHandler

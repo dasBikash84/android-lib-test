@@ -1,4 +1,4 @@
-package com.dasbikash.async_manager_example
+package com.dasbikash.super_activity_example
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
