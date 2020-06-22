@@ -39,7 +39,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     //Async manager dependency
-    implementation 'com.github.dasBikash84:android-async-manager:2.1.0'
+    implementation 'com.github.dasBikash84:android-async-manager:2.2.0'
 
     //Dependencies not related to Async manager
     implementation 'com.github.dasBikash84:android-extensions:1.9.0'
